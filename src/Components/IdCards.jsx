@@ -1,19 +1,17 @@
-import React from "react";  
+import React from "react";
 
-const IdCards = ({ name, role, department, id, avatar }) => {
+function IdCards({ name, role, image }) {
   return (
-    <div className="max-w-xs bg-white shadow-lg rounded-lg p-4 m-4">
+    <div className="bg-white p-6 rounded-lg shadow-md w-64 text-center">
       <img
-        src={avatar}
+        src={image}
         alt={name}
-        className="w-24 h-24 rounded-full mx-auto mb-4"
+        className="w-20 h-20 rounded-full mx-auto mb-4"
       />
-      <h2 className="text-xl font-semibold text-center">{name}</h2>
-      <p className="text-center text-gray-600">{role}</p>
-      <p className="text-center text-gray-600">{department}</p>
-      <p className="text-center text-gray-500 mt-2">ID: {id}</p>
+      <h2 className="text-lg font-bold">{name}</h2>
+      <p className="text-gray-600">{role}</p>
     </div>
   );
-};
+}
 
 export default IdCards;
