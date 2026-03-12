@@ -1,8 +1,7 @@
 import React from 'react';
 // 1. Import all 3 of your specific images
 import idimage1 from './assets/idimage1.jpg';
-
-import IdCards from './Components/IdCards'; 
+import IdCards from './components/IdCards';
 
 function App() {
   // 2. Assign the specific imported images to each person
@@ -40,7 +39,7 @@ function App() {
       {/* 3. This flex container will line them up nicely */}
       <div className="flex flex-wrap justify-center gap-8">
         {users.map((user) => (
-          <IdCards 
+          <IdCards
             key={user.id} 
             id={user.id}
             name={user.name} 

@@ -41,4 +41,4 @@ function IdCards({ id, name, role, department, image }) {
   );
 }
 
-export default IdCards;
+export default IdCards
