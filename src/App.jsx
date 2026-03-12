@@ -33,7 +33,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100 p-10">
       <h1 className="text-3xl font-bold text-center mb-10 text-gray-800">
-        Companyiii ID Directory
+        Company ID Directory
       </h1>
       
       {/* 3. This flex container will line them up nicely */}
