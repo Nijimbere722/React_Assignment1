@@ -2,7 +2,7 @@ import React from 'react';
 // 1. Import all 3 of your specific images
 import idimage1 from './assets/idimage1.jpg';
 
-import IdCards from './components/IdCards'; 
+import IdCards from './Components/IdCards'; 
 
 function App() {
   // 2. Assign the specific imported images to each person
